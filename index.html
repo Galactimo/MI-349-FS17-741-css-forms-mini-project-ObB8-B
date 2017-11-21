@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Marathon Registration Form</h1>
+      <p>Registration Form for the Upper Midwestern Annual Charity Marathon.</p>
+      <form>
+        <div class="form-group">
+          <label for="text">Full Name:</label>
+          <input type="text" class="form-control" id="email" placeholder="Enter Full Name">
+        </div>
+        <div class="form-group">
+          <label for="text">Address (Street, City, State, ZIP):</label>
+          <input type="text" class="form-control" id="email" placeholder="Street Address">
+        </div>
+        <div class="form-group">
+          <label for="select">State (If not listed you cannot register):</label>
+          <select class="form-control">
+            <option>MI</option>
+            <option>OH</option>
+            <option>IN</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="text">Age:</label>
+          <input type="text" class="form-control" id="text" placeholder="Enter Age">
+        </div>
+        <h3>Gender:</h3>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gender" value="Male">Male<br>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gender" value="Female">Female<br>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gender" value="Other">Other<br>
+          </label>
+        </div>
+        <h3>Shirt Size:</h3>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="tshirt" value="Extra Small">Extra Small
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="tshirt" value="Small">Small
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="tshirt" value="Medium">Medium
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="tshirt" value="Large">Large
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="tshirt" value="Extra Large">Extra Large
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
